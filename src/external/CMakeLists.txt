@@ -30,6 +30,8 @@ IF( NOT VSP_NO_GRAPHICS )
 	FIND_PACKAGE(GLEW_VSP REQUIRED)
 
 	ADD_SUBDIRECTORY( glfont2 )
+
+	ADD_SUBDIRECTORY( cartesian )
 ENDIF()
 
 # Add Eigen3 and Code-Eli
